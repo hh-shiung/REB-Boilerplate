@@ -21,3 +21,5 @@ yarn-debug.log*
 yarn-error.log*
 
 my-app-darwin-x64
+
+package-lock.json
