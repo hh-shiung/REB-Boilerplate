@@ -28,7 +28,7 @@ class App extends Component {
                     <div className="exitbutton pull-right" onClick={()=>{
                         electron.dialog.showErrorBox('Exit', 'Application will now exit.')
                         electron.app.quit()
-                    }}>x</div>
+                    }}>X</div>
                     <div className="visible-xs burgermenu pull-left" onClick={this.toggleMenu}>
                         <div className="burgerline"></div>
                         <div className="burgerline"></div>
@@ -49,6 +49,7 @@ class App extends Component {
             </div>
         );
     }
+    
 }
 
 export default App;
